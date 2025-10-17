@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56500b9338ffabaf",
+            "id": "80b858deeebb8014",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-version_control.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "00-version_control"
             }
           }
         ]
@@ -180,8 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573687720c861980",
+  "active": "80b858deeebb8014",
   "lastOpenFiles": [
+    "README.md",
+    "00-version_control.md",
     "Welcome.md"
   ]
 }
