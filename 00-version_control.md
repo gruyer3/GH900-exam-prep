@@ -30,3 +30,18 @@
 
 ***Commands, subcommands, options*** - Git operations are performed by using commands (for example: git push or git pull) where *git* is the command and *push* or *pull* is the subcommand. Subcommand specifies the operation you want to perform. Commands frequently are accompanied by options, which use hyphens (-) or double hyphens (--), for example: *git reset --hard*
 
+### Git and GitHub
+
+***Git*** is a distributed version control system (DVCS) that multiple team members can use to work on a project. It provides a way to work with one or more local branches and then push them to a remote repository.
+
+***GitHub*** is a cloud platform that uses ***Git*** as its core technology. Simplifies the process of collaborating on projects and provides a website, more command line tools and overall flow. ***GitHub*** acts as the remote repository. 
+
+Key features provided by GitHub:
+- Issues
+- Discussions
+- Pull requests
+- Notifications
+- Labels
+- Actions
+- Forks
+- Projects
