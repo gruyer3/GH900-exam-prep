@@ -3,12 +3,14 @@
 - Organization
 - Enterprise
 
+***
 ### Personal accounts
 
 ***Personal accounts*** can own resources such as repositories, packages and projects and has a straightforward way to manage your permissions. Every action taken on GitHub is attributed to your personal account.
 
 Each personal account uses either GitHub Free or GitHub Pro. All personal accounts can own an unlimited number of public and private repositories with an unlimited number of collaborators on those repositories.
 
+***
 ### Organizational accounts
 
 ***Organizational accounts*** are shared accounts where an unlimited number of people can collaborate across many projects at once. Unlike personal accounts, permissions with organization accounts are done with a tiered approach.
@@ -17,6 +19,7 @@ Organizations can own resources such as repositories, packages and projects. How
 
 The personal accounts within an organization can be given different roles in the organization to grant different levels of access to the organization and its data. Only organization owners and security managers can manage the settings for the organization and control access to the organization's data with sophisticated security and administrative features.
 
+***
 ### Enterprise accounts
 
 ***Enterprise accounts*** allow administrator to centrally manage policies and billing for multiple organizations and enable inner sourcing between their organizations. An enterprise account must have a handle, like an organization or user account.
@@ -25,6 +28,7 @@ Organizations are shared accounts for enterprise members to collaborate across m
 
 Enterprise accounts allows to manage and enforce policies for all the organizations owned by the enterprise. Each policy controls the options available for a policy at the organizational level.
 
+***
 ### GitHub plans
 
 ***GitHub Free*** - provides the basics for individuals and organizations:

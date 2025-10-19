@@ -5,18 +5,30 @@ GitHub bills accounts based on their type - personal, organization or enterprise
 
 Most plans include a set number of free usage minutes or storage.
 
+***
 ### GitHub Actions pricing
 
 ***Public repositories*** - usage is free, providing unlimited minutes on GitHub-hosted runners
 ***Private repositories*** - account receives a certain number of free minutes and storage, depending on account's plan
 
+***
 ### Usage-based billing for licenses
 
 ***Monthly billing*** - billed monthly for the exact number of GitHub Enterprise and Advanced Security licenses used
 ***Pro rata charges*** - charging a pro rata amount if a user starts consuming a license partway through the month
 ***Dynamic adjustments*** - if license consuming is stopped during the month, the billing reflects this change, ensuring organizations pay only for active users
 
+***
 ### Billing platform's capabilities
 
 ***Granular spending controls*** - specific spending limits can be set for services like GitHub Actions and Packages, preventing unexpected overages
+***Detailed usage insights*** - in-depth visibility into product usage
+***Automated reporting*** - automating usage reporting streamline financial oversight and facilitate internal chargebacks
+
 ***
+
+### Additional considerations
+
+***GitHub Codespaces*** - incurs extra charges based on storage and compute time, depending on your plan
+***Billing alerts*** - admins can receive alerts when approaching spending limits
+

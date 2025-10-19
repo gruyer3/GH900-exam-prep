@@ -6,6 +6,7 @@ Productivity is accelerated with automation that the ***GitHub Enterprise*** pla
 
 ***GitHub Enterprise*** includes native, first-party features like ***CodeQL***, ***secret scanning***, ***Dependabot*** and ***security overview*** to minimize risks. Code remains private while still benefiting from integrated security checks.
 
+***
 ### Repositories
 
 ***Repository*** contains all of your project's files and each file's revision history. It's one of the essential parts that help you collaborate with people. You can use repositories to manage your work, track changes, store revision history and work with others.
@@ -23,6 +24,7 @@ Once the cloning process is complete, navigate into the repository folder:
 cd <repository-name>
 ```
 
+***
 ### Gists
 
 ***Gists*** are a feature of GitHub that allows users to share code snippets, notes or other small pieces of information in a lightweight and convenient way. They are mini Git repositories, which means you can fork, clone and version-control them just like a regular repository. They are useful for sharing quick solutions, configuration files or examples without the need to create a full repository.
@@ -53,11 +55,13 @@ cd <repository-name>
 Never use gists to store sensitive or confidential data - even in scripts or config files.
 ***Gists are not fully private***: even secret gists can be accessed by anyone with the link.
 
+***
 ### Wikis
 
 Every repository on GitHub comes equipped with a section for hosting documentation, called a wiki which can be used to share long-form content about your projects, such as how to use it, how it was designed or its core principles.
 If your repository is private, only people who have at least read access to your repository will have access to your wiki.
 
+***
 ### Feature previews
 
 ***Feature Previews*** allow you to try out experimental features before they are officially released. They give you early access to new functionality and allow you to provide feedback to help shape the final product.

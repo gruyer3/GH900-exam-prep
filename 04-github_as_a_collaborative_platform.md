@@ -6,6 +6,8 @@
 - specific line of code
 - URL query
 
+***
+
 ***Discussions*** - designed for conversations that aren't necessarily tied to code. They support open, ongoing communication within a shared forum and can be public or private, depending on repository's visibility.
 
 ***Discussions categories:***

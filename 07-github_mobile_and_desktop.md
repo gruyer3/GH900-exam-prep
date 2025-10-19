@@ -9,6 +9,8 @@
 - verify sign in attempts
 - perform lightweight tasks
 
+***
+
 ***GitHub Desktop*** - available for Windows and macOS:
 - add repositories to manage existing projects locally
 - clone repositories 

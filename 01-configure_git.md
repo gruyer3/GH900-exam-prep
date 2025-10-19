@@ -14,6 +14,7 @@ Check if the changes worked:
 git config --list
 ```
 
+***
 ### Set up Git repository
 
 Start with creating an empty folder:
@@ -46,6 +47,7 @@ Show repository status with:
 git status
 ```
 
+***
 ### Get help from Git
 
 Type following command to get help with what you can do with Git:

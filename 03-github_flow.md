@@ -22,6 +22,7 @@ Within a git repository, a file can exist in several valid states. The primary s
 - ***Staged*** - file has been modified and the changes have been added to the staging area. These changes are ready to be committed.
 - ***Committed*** - the file is in the repository's database. It represents the latest committed version of the file.
 
+***
 ### Pull requests
 
 ***Pull request*** is the mechanism used to signal that the commits from one branch are ready to be merged into another branch. The team member submitting the pull request asks one or more reviewers to verify the code and approve the merge. These reviewers have the opportunity to comment on changes, add their own or use them for further discussion.
@@ -30,6 +31,7 @@ Within a git repository, a file can exist in several valid states. The primary s
 
 Once the changes have been approved, the pull request's source branch is merged into the base branch.
 
+***
 ### The GitHub Flow
 
 ***The GitHub Flow*** is a simple workflow that helps you safely make and share changes. It's great for trying out ideas and collaborating with your team using branches, pull requests and merges.

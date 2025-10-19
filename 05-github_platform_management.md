@@ -26,6 +26,7 @@ You can subscribe to notifications for:
 - ***Custom notifications:***
 	- Specific event types for different channels.
 
+***
 ### GitHub Pages
 
 ***GitHub Pages*** can be used to publicize and host a website about yourself, your organization or your project directly from a repository. It is a static hosting service that takes HTML, CSS and JavaScript files straight from a repository. You can specify a source branch and folder for your Pages site and GitHub will host the content publicly.
