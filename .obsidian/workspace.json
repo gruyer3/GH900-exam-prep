@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b2059e435360c06",
+        "id": "520bfa76ff1e7bc7",
         "type": "tabs",
         "children": [
           {
-            "id": "5f4d537029bcf64f",
+            "id": "cb9f7fc4631d9f05",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -166,10 +166,11 @@
   },
   "active": "573687720c861980",
   "lastOpenFiles": [
+    "06-github_accounts_and_plans.md",
     "04-github_as_a_collaborative_platform.md",
     "05-github_platform_management.md",
-    "03-github_flow.md",
     "02-github.md",
+    "03-github_flow.md",
     "00-version_control.md",
     "README.md",
     "01-configure_git.md",
