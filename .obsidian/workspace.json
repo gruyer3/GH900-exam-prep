@@ -11,10 +11,14 @@
             "id": "712f13d591672297",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "09-license_usage_stats.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "09-license_usage_stats"
             }
           }
         ]
@@ -164,8 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573687720c861980",
+  "active": "712f13d591672297",
   "lastOpenFiles": [
+    "README.md",
+    "02-github.md",
     "09-license_usage_stats.md",
     "08-github_billing.md",
     "07-github_mobile_and_desktop.md",
@@ -173,10 +179,8 @@
     "06-github_accounts_and_plans.md",
     "05-github_platform_management.md",
     "03-github_flow.md",
-    "02-github.md",
     "01-configure_git.md",
     "00-version_control.md",
-    "README.md",
     "Welcome.md"
   ]
 }
