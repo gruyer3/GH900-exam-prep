@@ -8,4 +8,11 @@ GitHub creates code-scanning alerts in a repository using information from SARIF
 
 Results may be uploaded by using code-scanning API, the CodeQL CLI or GitHub Actions. 
 
-**Code
+***
+
+**Code scanning API** - lets you retrieve information on code scanning alerts, analyses, databases and default setup configuration from a repository. You can use endpoints to create automated reports for the code-scanning alerts in an organization or upload analysis results generated using offline code-scanning tools. 
+
+GitHub API: https://api.github.com/
+
+All data is sent and received as JSON. The API uses custom media types to let consumers choose the format of the data they wish to receive. Media types are specific to resources, allowing them to change independently and support formats that other resources don't.
+
