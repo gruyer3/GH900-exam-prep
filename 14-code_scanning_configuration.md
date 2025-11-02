@@ -9,7 +9,7 @@ By default, the CodeQL analysis workflow uses the *on:push* event to trigger a c
 The default CodeQL analysis workflow uses the *pull_request* event to trigger a code scan on pull requests targeted against the default branch. If a pull request is from a private fork, it's only triggered if you've selected the right option in the repository settings. If *pull_request* trigger is configured to scan the pull request's merge commit rather than the head commit, it produces more efficient and accurate results than scanning the branch head on each push. However, if you use a CI/CD system that can't be configured to trigger on pull requests, you can still use the *on:push* trigger so that code scanning maps the results to open pull requests on the branch and adds the alerts as annotations on a pull request. 
 
 ***
-### Avoid unecessary scans of pull requests
+### Avoid unnecessary scans of pull requests
 
 Can be configured by specyfing *on:pull_request:paths-ignore* or *on:pull_request:paths* in the code-scanning workflow. For example, if the only changes in a pull request are to files with the file extensions .md or .txt you can use the following *paths-ignore* array.
 ```
