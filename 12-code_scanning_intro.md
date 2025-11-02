@@ -9,3 +9,19 @@ If code scanning finds a potential vulnerability or error in your code, GitHub d
 - Advanced setup - add the CodeQL workflow directly to your repository. It generates a customizable workflow file, which uses the *github/codeql-action* to run the CodeQL CLI as a GitHub Actions. 
 - CodeQL CLI - may be run directly in an external CI system and uploads results to GitHub
 
+CodeQL supports following languages:
+- C or C++
+- C#
+- Go
+- Java/Kotlin
+- JavaScript/TypeScript
+- Python
+- Ruby
+- Swift
+
+***
+
+### Billing for Actions
+
+Code scanning uses GitHub Actions and each run of a code-scanning workflow consumes minutes for it. 
+GitHub Actions usage is free for both public repositories and self-hosted runners.
