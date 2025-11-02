@@ -16,3 +16,33 @@ GitHub API: https://api.github.com/
 
 All data is sent and received as JSON. The API uses custom media types to let consumers choose the format of the data they wish to receive. Media types are specific to resources, allowing them to change independently and support formats that other resources don't.
 
+There's one supported custom media type for the code scanning REST API: *application/sarif+json*
+This media type can be used with GET requests sent to the */analyses/{analysis_id}* endpoint. The response includes a subset of the actual data that was uploaded for the specified analysis. The response also includes additional data such as the *github/alertNumber* and *github/alertUrl* properties.
+
+***
+
+**CodeQL CLI** - standalone product that can be used to analyze code. Its main purpose is to generate a database representation of a codebase, a CodeQL database. Once the database is ready, you can query it interactively or run a suite of queries to generate a set of results in SARIF format. 
+
+**CodeQL CLI** is free to use on public repositories and is available to use on customer owned private repositories with an Advanced Security license. 
+
+CodeQL bundle includes:
+- CodeQL CLI product
+- Compatible version of the queries and libraries
+- Precompiled versions of all the queries included in the bundle
+
+You should always use the CodeQL bundle because this ensures compatibility and gives better performance than separate download of CodeQL CLI and checkout of the CodeQL queries. 
+
+*** 
+
+**Code-scanning analysis with GitHub Actions** - includes GitHub Actions workflow which is an automated process, made up of one or more jobs, configured as a .yaml file. 
+Workflows are stored in the *.github/workflows* directory of your repository. 
+
+Workflow uses the *upload-sarif* action which includes input parameters that can be used for upload configuration. It can be configured to run when the push and scheduled event occurs.
+
+The main input parameter is *sarif-file*, which configures the file or directory of SARIF files to be uploaded. The directory or file path is relative to the root of the repository. 
+
+Each time the results of a new code scan are uploaded, the results are processed and alerts are added to the repository. To prevent duplicate alerts for the same problem, code scanning uses fingerprints to match results across various runs so they only appear once in the latest run for the selected branch. 
+
+SARIF files created by CodeQL analysis workflow include fingerprint data in the *partialFingerprints* field. If SARIF file is uploaded using *upload-sarif* action and this data is missing, GitHub attempts to populate this field from the source files. 
+GitHub can only create *partialFingerprints* when the repository contains both the SARIF file and the source code used in static analysis.
+
