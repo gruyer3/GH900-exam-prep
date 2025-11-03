@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85d334a50d90db6c",
+            "id": "5d1fce3cacdc4ecb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "18-codespaces_personalization.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "18-codespaces_personalization"
             }
           }
         ]
@@ -164,8 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573687720c861980",
+  "active": "5d1fce3cacdc4ecb",
   "lastOpenFiles": [
+    "17-codespaces.md",
+    "18-codespaces_personalization.md",
     "15-github_copilot_intro.md",
     "16-copilot_interaction.md",
     "14-code_scanning_configuration.md",
