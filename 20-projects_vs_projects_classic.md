@@ -33,3 +33,24 @@
 - Webhooks events for Project item metadata updates
 - GitHub Action to automate adding issues
 
+***
+### Project access
+
+**Organization-owned Project:**
+- No access:
+	- Only organization owners and users granted individual access can see the Project. Organization owners are also admins for the Project.
+- Read:
+	- Everyone in the organization can see the Project. Organization owners are also admins for the Project.
+- Write:
+	- Everyone in the organization can see and edit the Project. Organization owners are also admins for the Project.
+- Admin:
+	- Everyone in the organization is an admin for the Project.
+
+**Personal/User-owned Project:**
+- Read:
+	- The individual can view the Project.
+- Write:
+	- The individual can view and edit the Project.
+- Admin:
+	- The individual can view, edit and add new collaborators to the Project.
+
