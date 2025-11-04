@@ -1,0 +1,10 @@
+
+|                 | GitHub.dev                                                                     | GitHub Codespaces                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| Cost            | Free                                                                           | Free monthly quota of usage for personal accounts                                                                                 |
+| Availability    | Available for everyone                                                         | Available for everyone                                                                                                            |
+| Startup         | Opens instantly with a key-press, no waiting for configuration or installation | Assigned a VM when created. The container is configured based on the contents of devcontainer.json file - setup takes few minutes |
+| Compute         | No associated compute resources                                                | You get the power of a dedicated VM                                                                                               |
+| Terminal access | None                                                                           | Provides common set of tools, including terminal                                                                                  |
+| Extensions      | Only a subset of extensions can be installed                                   | Most extensions are available                                                                                                     |
+Workflow can be started in GitHub.dev and continued on a Codespace but if you try to access the Run and Debug View or the Terminal, you'll see a notification that they're not available in GitHub.dev.
