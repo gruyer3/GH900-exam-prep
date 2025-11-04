@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17-codespaces.md",
+                "file": "20-projects_vs_projects_classic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17-codespaces"
+              "title": "20-projects_vs_projects_classic"
             }
           }
         ]
@@ -168,11 +168,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573687720c861980",
+  "active": "aee021ffda82ac4a",
   "lastOpenFiles": [
+    "17-codespaces.md",
+    "20-projects_vs_projects_classic.md",
     "18-codespaces_personalization.md",
     "19-codespaces_vs_github.dev.md",
-    "17-codespaces.md",
     "15-github_copilot_intro.md",
     "16-copilot_interaction.md",
     "14-code_scanning_configuration.md",
